@@ -15,3 +15,32 @@ const TopNav = ({company_logo, dashboard=false, agent}) => {
 }
 
 export default TopNav
+
+
+import styled from 'styled-components';
+
+
+
+ export const Header = styled.header`
+  display: flex;
+  align-items: center;
+  display: grid;
+  padding: 0 20px;
+  background-color: green;
+  color: white;
+  height: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+`;
+
+export const Img = styled.img`
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+`;
+
+export const Div = styled.div`
+  ${'' /* display: flex; */}
+  align-items: center;
+  display: grid;
+  padding-left: 20px;
+`;
